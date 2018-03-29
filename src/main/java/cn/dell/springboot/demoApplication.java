@@ -21,7 +21,7 @@ public class demoApplication {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        SpringApplication.run(helloApplication.class, args);
+        SpringApplication.run(demoApplication.class, args);
     }
     @RequestMapping("demo")
     @ResponseBody
