@@ -28,7 +28,6 @@ public class demoApplication {
     private String hello(){
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-
         String d= format.format(date);
         System.out.println(d);
         return d;
