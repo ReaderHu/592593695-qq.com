@@ -7,7 +7,7 @@ public class helloApplication {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SpringApplication.run(demoApplication.class, args);
+		SpringApplication.run(helloApplication.class, args);
 	}
 
 	@ResponseBody
